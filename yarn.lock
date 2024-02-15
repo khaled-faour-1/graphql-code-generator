@@ -2246,16 +2246,16 @@
     lodash "~4.17.0"
     tslib "~2.4.0"
 
-"@graphql-codegen/typescript-msw@1.1.6":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-msw/-/typescript-msw-1.1.6.tgz#d9e21cd4b7152c1c82de10178ede8bf36607f7fd"
-  integrity sha512-InB90+VMGLsBlSmK2Msmx52wuHqVy9tn8ZvhOU6aH71z6tY9CtbI8Ks6CwJLZtPlArCH/OQAM5+/Vj1AdeNhhA==
+"@graphql-codegen/typescript-msw@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-msw/-/typescript-msw-3.0.0.tgz#b6b6a8520f152ba79cb667914156f807f2485372"
+  integrity sha512-1cZJ5haxPMUCuq/4fGU1N0xeAxV7C1Hok0hk8klvR4IemOYY+IvajV98H5h/VJz3BpZin8v2kgQH09sPkn0mRQ==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "^2.7.2"
+    "@graphql-codegen/plugin-helpers" "^3.0.0"
     "@graphql-codegen/visitor-plugin-common" "2.13.1"
     auto-bind "~4.0.0"
-    change-case-all "1.0.14"
-    tslib "~2.4.0"
+    change-case-all "1.0.15"
+    tslib "~2.6.0"
 
 "@graphql-codegen/typescript-nhost@0.0.2":
   version "0.0.2"
@@ -4505,15 +4505,15 @@
   resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.2.tgz#fc25ad9943bcac11cceb8168db4f275e0e72e756"
   integrity sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==
 
-"@types/unist@*", "@types/unist@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@types/unist/-/unist-3.0.0.tgz#988ae8af1e5239e89f9fbb1ade4c935f4eeedf9a"
-  integrity sha512-MFETx3tbTjE7Uk6vvnWINA/1iJ7LuMdO4fcq8UfF0pRbj01aGLduVvQcRyswuACJdpnHgg8E3rQLhaRdNEJS0w==
-
-"@types/unist@^2.0.0", "@types/unist@^2.0.2":
+"@types/unist@*", "@types/unist@^2.0.0", "@types/unist@^2.0.2":
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.6.tgz#250a7b16c3b91f672a24552ec64678eeb1d3a08d"
   integrity sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==
+
+"@types/unist@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/unist/-/unist-3.0.0.tgz#988ae8af1e5239e89f9fbb1ade4c935f4eeedf9a"
+  integrity sha512-MFETx3tbTjE7Uk6vvnWINA/1iJ7LuMdO4fcq8UfF0pRbj01aGLduVvQcRyswuACJdpnHgg8E3rQLhaRdNEJS0w==
 
 "@types/ws@^8.0.0":
   version "8.5.4"
@@ -12569,7 +12569,7 @@ path-case@^3.0.4:
     dot-case "^3.0.4"
     tslib "^2.0.3"
 
-path-equal@^1.1.2:
+path-equal@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/path-equal/-/path-equal-1.2.5.tgz#9fcbdd5e5daee448e96f43f3bac06c666b5e982a"
   integrity sha512-i73IctDr3F2W+bsOWDyyVm/lqsXO47aY9nsFZUjTT/aljSbkxHxxCoyZ9UUrM8jK0JVod+An+rl48RCsvWM+9g==
@@ -15018,21 +15018,21 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
-typescript-json-schema@0.56.0:
-  version "0.56.0"
-  resolved "https://registry.yarnpkg.com/typescript-json-schema/-/typescript-json-schema-0.56.0.tgz#de3fe196633197aa66b10191e78f51d5f6b45847"
-  integrity sha512-k/aSEqx89YR2z/f2y3VwoOGzlKTWern0EIey2qqEpMRP7HL4CI8udPElzJs4eFVkPowCLJ1yVBSzuIWIUF+mMA==
+typescript-json-schema@0.63.0:
+  version "0.63.0"
+  resolved "https://registry.yarnpkg.com/typescript-json-schema/-/typescript-json-schema-0.63.0.tgz#55ef6c4dde71625425b169d37e0de3d2ea14e093"
+  integrity sha512-vBfMBq4U/rZ5FIRi7u4o/YAdeRHsSabdGHogUlCPi0cYU0CGvS4Bdu8bSzyUsF+Kf5PTQUGh2TictJuQTDK6eQ==
   dependencies:
     "@types/json-schema" "^7.0.9"
     "@types/node" "^16.9.2"
     glob "^7.1.7"
-    path-equal "^1.1.2"
+    path-equal "^1.2.5"
     safe-stable-stringify "^2.2.0"
     ts-node "^10.9.1"
-    typescript "~4.9.5"
+    typescript "~5.1.0"
     yargs "^17.1.1"
 
-typescript@5.2.2, typescript@^5.0.0, typescript@~4.9.5:
+typescript@5.2.2, typescript@^5.0.0, typescript@~5.1.0:
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
   integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
